@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot-desktop.png](./images/screenshot-desktop.png)
-![mobile.png](./images/mobile.png)
+![Desktop](screenshot-desktop.png)
+![Mobile](mobile.png)
 
 
 ### Links
@@ -64,7 +64,7 @@ I need to continue to work on CSS Grid.  I know with Grid i should have been abl
 
 
 ## Author
-- Frontend Mentor - [@njohnosn533](https://www.frontendmentor.io/profile/njohnson533)
+- Frontend Mentor - [@njohnson533](https://www.frontendmentor.io/profile/njohnson533)
 
 
 
