@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    height: 100%;
+    margin: auto;
+    color: hsla(0, 0%, 100%, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.5rem;
+    padding: 5% 0 5% 0;
+}
+
+p {
+    font-size: 15px;
+    padding: 5% 0 5% 0;
+    line-height: 1.5;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: transparent;
+    margin-top: 5%;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.wrapper {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto, 250px);
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    padding: 5%;
+}
+
+img {
+    width: 3rem;
+}
+
+.sedans, .suvs, .luxury {
+    padding: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.sedans button{
+    color: hsl(31, 77%, 52%);
+}
+
+.sedans button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 2px hsl(0, 0%, 95%) solid;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suvs button {
+    color: hsl(184, 100%, 22%);
+}
+
+.suvs button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 2px hsl(0, 0%, 95%) solid;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.luxury button {
+    color: hsl(179, 100%, 13%);
+}
+
+.luxury button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 2px hsl(0, 0%, 95%) solid;
+}
+
+.footer {
+     font-size: 11px; 
+     text-align: center; 
+     color: black;
+}
+.footer a {
+     color: hsl(228, 45%, 44%); 
+    }
+
+/* media queries */
+@media screen and (min-width: 1024px){
+    .wrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 70%;
+    }
+
+    .sedans {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .luxury {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+}
