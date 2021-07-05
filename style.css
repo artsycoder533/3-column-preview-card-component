@@ -9,8 +9,6 @@ body {
     height: 100%;
     color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Lexend Deca', sans-serif;
-    padding-top: 25px;
-    padding-bottom: 25px;
 }
 
 h1 {
@@ -42,8 +40,6 @@ button {
     height: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, 300px);
-    /* justify-content: center; 
-    align-content: center;  */
     justify-content: center;
     align-content: center;
 }
