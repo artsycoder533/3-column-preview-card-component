@@ -6,13 +6,8 @@
 
 body {
     font-size: 62.5%;
-    height: 100%;
-    margin: auto;
+    height: 100vh;
     color: hsla(0, 0%, 100%, 0.75);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     font-family: 'Lexend Deca', sans-serif;
 }
 
@@ -44,9 +39,11 @@ button {
 .wrapper {
     height: 100%;
     display: grid;
-    grid-template-columns: repeat(auto, 250px);
-    /* grid-template-rows: 1fr 1fr 1fr; */
-    padding: 5%;
+    grid-template-columns: repeat(auto-fit, 300px);
+    /* padding: 10% 0 10% 0; */
+    justify-content: center;
+    /* margin: 15% 0 15% 0; */
+    align-content: center;
 }
 
 img {
@@ -62,8 +59,6 @@ img {
 
 .sedans {
     background-color: hsl(31, 77%, 52%);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 .sedans button{
@@ -92,8 +87,6 @@ img {
 
 .luxury {
     background-color: hsl(179, 100%, 13%);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
 
 .luxury button {
@@ -113,24 +106,5 @@ img {
 }
 .footer a {
      color: hsl(228, 45%, 44%); 
-    }
-
-/* media queries */
-@media screen and (min-width: 1024px){
-    .wrapper {
-        grid-template-columns: 1fr 1fr 1fr;
-        width: 70%;
-    }
-
-    .sedans {
-        border-top-left-radius: 10px;
-        border-top-right-radius: 0px;
-        border-bottom-left-radius: 10px;
-    }
-
-    .luxury {
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        border-bottom-left-radius: 0;
-    }
 }
+
