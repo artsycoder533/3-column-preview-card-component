@@ -41,7 +41,7 @@ Users should be able to:
 
 ## My process
 
-I used a mobile first design and broke the example picture into sections to figure out the structure needed.  I used a wrapper class and then 3 identical subsections.  My intention was to use CSS Grid, but I know I didnt use it correctly.
+I used a mobile first design and broke the example picture into sections to figure out the structure needed.  I used a wrapper class and then 3 identical subsections.  I used CSS Grid so I wouldnt need to use media queries.
 
 ### Built with
 
@@ -55,12 +55,12 @@ I used a mobile first design and broke the example picture into sections to figu
 
 ### What I learned
 
-I learned the difference between selecting the body height at 100% vs 100vh.  At one point my footer ended up in the middle of the mobile design because of this.
+How to use auto-fit with the repeat function in CSS Grid.
 
 
 ### Continued development
 
-I need to continue to work on CSS Grid.  I know with Grid i should have been able to make it automatically responsive so that i didnt have to add a media query, but i couldnt figure it out.  The grid-template-columns: repeat function I cant seem to grasp, especially when I dont know the exact sizing of each column to start.
+I need to continue to work on CSS Grid.  
 
 
 ## Author
