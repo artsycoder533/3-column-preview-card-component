@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/njohnson533/3-column-preview-card-component-challenge.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://njohnson533.github.io/3-column-preview-card-component/)
 
 ## My process
 
